@@ -8,27 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		1BAA769C05114DB6D858B89B /* Pods_FirebaseSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE7DB32D4EB48ACC714B51A1 /* Pods_FirebaseSample.framework */; };
-		8E9865E11E5E6A4C00EAF2A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9865DD1E5E6A4C00EAF2A2 /* AppDelegate.swift */; };
-		8E9865E21E5E6A4C00EAF2A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E9865DE1E5E6A4C00EAF2A2 /* Assets.xcassets */; };
-		8E9865E41E5E6A4C00EAF2A2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9865E01E5E6A4C00EAF2A2 /* LoginViewController.swift */; };
-		8EF3085E1E5E6ABF00285568 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EF3085A1E5E6ABF00285568 /* LaunchScreen.storyboard */; };
-		8EF3085F1E5E6ABF00285568 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EF3085C1E5E6ABF00285568 /* Main.storyboard */; };
-		8EF308621E5E6E6E00285568 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8EF308601E5E6B2700285568 /* GoogleService-Info.plist */; };
-		8EF308671E5E764600285568 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF308661E5E764600285568 /* MainViewController.swift */; };
+		8E2A1DF11E5F73CF00919E8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2A1DEB1E5F73CF00919E8C /* AppDelegate.swift */; };
+		8E2A1DF21E5F73CF00919E8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E2A1DEC1E5F73CF00919E8C /* Assets.xcassets */; };
+		8E2A1DF31E5F73CF00919E8C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E2A1DED1E5F73CF00919E8C /* GoogleService-Info.plist */; };
+		8E2A1DF51E5F73CF00919E8C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2A1DEF1E5F73CF00919E8C /* LoginViewController.swift */; };
+		8E2A1DF61E5F73CF00919E8C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2A1DF01E5F73CF00919E8C /* MainViewController.swift */; };
+		8E2A1DFB1E5F73FB00919E8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E2A1DF71E5F73FB00919E8C /* LaunchScreen.storyboard */; };
+		8E2A1DFC1E5F73FB00919E8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E2A1DF91E5F73FB00919E8C /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		061880B8C3AEACB9366B8626 /* Pods-FirebaseSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseSample/Pods-FirebaseSample.release.xcconfig"; sourceTree = "<group>"; };
 		4E27A438C624AF1EAD9B4970 /* Pods-FirebaseSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseSample/Pods-FirebaseSample.debug.xcconfig"; sourceTree = "<group>"; };
+		8E2A1DEB1E5F73CF00919E8C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E2A1DEC1E5F73CF00919E8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E2A1DED1E5F73CF00919E8C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8E2A1DEE1E5F73CF00919E8C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E2A1DEF1E5F73CF00919E8C /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8E2A1DF01E5F73CF00919E8C /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		8E2A1DF81E5F73FB00919E8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E2A1DFA1E5F73FB00919E8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8E8C30DF1E5E68E7007DD95E /* FirebaseSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E9865DD1E5E6A4C00EAF2A2 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Sources/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
-		8E9865DE1E5E6A4C00EAF2A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Sources/Assets.xcassets; sourceTree = SOURCE_ROOT; };
-		8E9865DF1E5E6A4C00EAF2A2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Sources/Info.plist; sourceTree = SOURCE_ROOT; };
-		8E9865E01E5E6A4C00EAF2A2 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = Sources/LoginViewController.swift; sourceTree = SOURCE_ROOT; };
-		8EF3085B1E5E6ABF00285568 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Sources/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
-		8EF3085D1E5E6ABF00285568 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Sources/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
-		8EF308601E5E6B2700285568 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Sources/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
-		8EF308661E5E764600285568 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = Sources/MainViewController.swift; sourceTree = SOURCE_ROOT; };
 		DE7DB32D4EB48ACC714B51A1 /* Pods_FirebaseSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -65,14 +65,14 @@
 		8E8C30E11E5E68E7007DD95E /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				8E9865DD1E5E6A4C00EAF2A2 /* AppDelegate.swift */,
-				8E9865E01E5E6A4C00EAF2A2 /* LoginViewController.swift */,
-				8EF308661E5E764600285568 /* MainViewController.swift */,
-				8EF3085C1E5E6ABF00285568 /* Main.storyboard */,
-				8E9865DE1E5E6A4C00EAF2A2 /* Assets.xcassets */,
-				8EF3085A1E5E6ABF00285568 /* LaunchScreen.storyboard */,
-				8E9865DF1E5E6A4C00EAF2A2 /* Info.plist */,
-				8EF308601E5E6B2700285568 /* GoogleService-Info.plist */,
+				8E2A1DEB1E5F73CF00919E8C /* AppDelegate.swift */,
+				8E2A1DEF1E5F73CF00919E8C /* LoginViewController.swift */,
+				8E2A1DF01E5F73CF00919E8C /* MainViewController.swift */,
+				8E2A1DF91E5F73FB00919E8C /* Main.storyboard */,
+				8E2A1DEC1E5F73CF00919E8C /* Assets.xcassets */,
+				8E2A1DF71E5F73FB00919E8C /* LaunchScreen.storyboard */,
+				8E2A1DEE1E5F73CF00919E8C /* Info.plist */,
+				8E2A1DED1E5F73CF00919E8C /* GoogleService-Info.plist */,
 			);
 			name = Sources;
 			path = FirebaseSample;
@@ -158,10 +158,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EF3085E1E5E6ABF00285568 /* LaunchScreen.storyboard in Resources */,
-				8EF308621E5E6E6E00285568 /* GoogleService-Info.plist in Resources */,
-				8E9865E21E5E6A4C00EAF2A2 /* Assets.xcassets in Resources */,
-				8EF3085F1E5E6ABF00285568 /* Main.storyboard in Resources */,
+				8E2A1DF21E5F73CF00919E8C /* Assets.xcassets in Resources */,
+				8E2A1DFC1E5F73FB00919E8C /* Main.storyboard in Resources */,
+				8E2A1DFB1E5F73FB00919E8C /* LaunchScreen.storyboard in Resources */,
+				8E2A1DF31E5F73CF00919E8C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,27 +220,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EF308671E5E764600285568 /* MainViewController.swift in Sources */,
-				8E9865E11E5E6A4C00EAF2A2 /* AppDelegate.swift in Sources */,
-				8E9865E41E5E6A4C00EAF2A2 /* LoginViewController.swift in Sources */,
+				8E2A1DF11E5F73CF00919E8C /* AppDelegate.swift in Sources */,
+				8E2A1DF61E5F73CF00919E8C /* MainViewController.swift in Sources */,
+				8E2A1DF51E5F73CF00919E8C /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8EF3085A1E5E6ABF00285568 /* LaunchScreen.storyboard */ = {
+		8E2A1DF71E5F73FB00919E8C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8EF3085B1E5E6ABF00285568 /* Base */,
+				8E2A1DF81E5F73FB00919E8C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		8EF3085C1E5E6ABF00285568 /* Main.storyboard */ = {
+		8E2A1DF91E5F73FB00919E8C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8EF3085D1E5E6ABF00285568 /* Base */,
+				8E2A1DFA1E5F73FB00919E8C /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -345,7 +345,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 659JJ5AV7Q;
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/FirebaseSample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.moritzsternemann.FirebaseSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -359,7 +359,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 659JJ5AV7Q;
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/FirebaseSample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.moritzsternemann.FirebaseSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
