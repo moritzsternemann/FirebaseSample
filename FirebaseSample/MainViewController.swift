@@ -49,7 +49,9 @@ class MainViewController: UITableViewController {
     }
     
     func setupData(withUser user: FIRUser) {
-        ref.child("myData").observe(.value, with: { snapshot in
+        guard let user = FIRAuth.auth()?.currentUser else { return }
+        
+        ref.child("myData").child(user.uid).observe(.value, with: { snapshot in
             self.myData = snapshot.value as? [String: String] ?? [:]
             DispatchQueue.main.async {
                 self.tableView.reloadData()
@@ -91,9 +93,10 @@ class MainViewController: UITableViewController {
             guard let textField = alert?.textFields?[0] else { return }
             guard let text = textField.text else { return }
             guard !text.isEmpty else { return }
+            guard let user = FIRAuth.auth()?.currentUser else { return }
             
             // Save text
-            self.ref.child("myData").childByAutoId().setValue(text)
+            self.ref.child("myData").child(user.uid).childByAutoId().setValue(text)
         })
         
         self.present(alert, animated: true)
